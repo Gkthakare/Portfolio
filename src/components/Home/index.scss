@@ -4,7 +4,7 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 60%;
         max-height: 90%;
     }
     h1 {
@@ -14,7 +14,6 @@
         font-family: 'scoolvetica';
         font-weight: 500;
         &::before {
-            content: '<h1>';
             font-family: 'La Belle Aurore';
             color: #ffd700;
             font-size: 18px;
@@ -24,7 +23,6 @@
             opacity: 0.6;
         }
         &::after {
-            content: '<h1/>';
             font-family: 'La Belle Aurore';
             color: #ffd700;
             font-size: 18px;
@@ -79,4 +77,15 @@
             font-family: sans-serif;
         }
     }
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0px 0px var(--white);
+    margin: 0 0px 0 100px;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
 }

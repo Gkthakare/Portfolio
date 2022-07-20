@@ -43,6 +43,15 @@ const About = () => {
                     If i need to define myself in a sentence that would be An 
                     ambitious lad can only run towards knowledge.
                 </p>
+                <div className='profile-options'>
+                <button className='btn primary-btn'>
+                    {""}
+                    Hire Me {" "}
+                </button>
+                <a href='Resume.pdf' download='Gaurav Resume.pdf'>
+                    <button className='btn highlighted-btn'>Get Resume</button>
+                </a>
+            </div>
             </div>
 
             <div className="stage-cube-cont">
@@ -65,7 +74,7 @@ const About = () => {
                     <div className="face6">
                         <FontAwesomeIcon icon={ faJava } color="#f89820 " />
                     </div>
-
+                    
                 </div>
 
             </div>
