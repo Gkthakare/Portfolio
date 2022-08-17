@@ -40,11 +40,11 @@ const Home = () => {
                 <h2>Frontend Developer / Java expert / Kotlin / Git / GitHub / Coding Enthusiast</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-        </div>
-        <div className="profile-picture">
+            <div className="profile-picture">
                     <div className="profile-picture-background">
                     </div>
                 </div>
+        </div>
         <Loader type="pacman" />
         </>
         );

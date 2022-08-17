@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import LogoS from '../../assets/images/logo.png'
+import LogoS from '../../assets/images/GT.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -9,6 +9,7 @@ import {
   FaGithub,
   FaInstagram,
 } from 'react-icons/fa'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const SideBar = () => {
   return (
@@ -71,8 +72,14 @@ const SideBar = () => {
           </a>
         </li>
       </ul>
-    </div>
+      <div className="hamburger-menu">
+        <a href="Home">
+          <GiHamburgerMenu />
+        </a>
+      </div>
+    </div> 
   )
+  
 }
 
 export default SideBar
