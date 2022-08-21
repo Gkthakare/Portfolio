@@ -74,10 +74,10 @@
 .info-map {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.675);
-    top: 50px;
-    right: 30%;
-    z-index: 999999;
-    width: 267px;
+    top: 11em;
+    right: -7em;
+    z-index: 1;
+    width: 200px;
     padding: 20px;
     color: #fff;
     font-family: 'Helvetica';
@@ -97,8 +97,10 @@
 .map-wrap {
     background: rgba(0, 0, 0, 0.247);
     float: right;
-    width: 70%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
+    margin-right: -10em;
+    margin-top: 10em;
 }
 
 .leaflet-container {
